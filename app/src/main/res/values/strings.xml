@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Fraud Catcher-v1.1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--  Title  -->
+    <string name="title_app">Fraud Catcher</string>
+    <string name="about_title">Fraud Catcher \nTeam</string>
+    <string name="home_fragment_title">Hello Home Fragment</string>
+    <string name="sche_fragment_title">Hello Schedule Fragment</string>
+    <string name="stat_fragment_title">Hello Status Fragment</string>
+    <string name="more_fragment_title">Hello More Fragment</string>
+
+    <!--  Navigation's Name  -->
+    <string name="mhome">Home</string>
+    <string name="mschedule">Schedule</string>
+    <string name="mstatus">Status</string>
+    <string name="mmore">More</string>
+
+    <!--  Item App  -->
+    <string name="sign_in"> Sign In </string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="item_forgot_password">Forgot Password?\t</string>
+    <string name="show_pass">Show Password\t</string>
+    <string name="btn_login">Login</string>
+
+    <!--  Team  -->
+    <string name="name_fidah">Nur Khafidah</string>
+    <string name="name_yoga">M. Prayoga Pangestu</string>
+    <string name="name_arsyad">Arsyad Abdillah</string>
+    <string name="name_mifta">Miftakhul Mubarok</string>
+
+    <!--  Task  -->
+    <string name="team_backend">BackEnd Developer</string>
+    <string name="team_frontend">FrontEnd Developer</string>
+    <string name="team_analist">Analyst</string>
+
+    <!--  Menu App  -->
+    <string name="profile">Edit Profile</string>
+    <string name="setting">Settings</string>
+    <string name="help">Help Me</string>
+    <string name="about">About Us</string>
+
+    <!--  Image Description  -->
+    <string name="ic_prof_desc">Icon profile menu</string>
+    <string name="ic_set_desc">Icon settings menu</string>
+    <string name="ic_help_desc">Icon help menu</string>
+    <string name="ic_info_desc">Icon information menu</string>
+    <string name="rec_desc_1">Rectangle frame out</string>
+    <string name="rec_desc_2">Rectangle frame in</string>
+    <string name="logo_desc">Logo application</string>
+
+    <!--  Detail  -->
+    <string name="rincian">Berisi Profil, setting, login dan logout, \ntentang aplikasi, \ndan tentang team project</string>
+
+</resources>

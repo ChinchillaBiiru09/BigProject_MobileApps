@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_app"
+    tools:context=".activity.LoginActivity">
+
+<!-- Group 1 -->
+<FrameLayout
+    android:layout_width="@dimen/_120sdp"
+    android:layout_height="@dimen/_120sdp"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/_80sdp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/rectangle_b"
+        android:contentDescription="@string/rec_desc_1" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/rectangle_s"
+        android:contentDescription="@string/rec_desc_2" />
+    <ImageView
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_app"
+        android:contentDescription="@string/logo_desc" />
+</FrameLayout>
+
+<!-- Sign in -->
+<TextView
+    android:id="@+id/sign_in"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/sign_in"
+    android:textSize="@dimen/_30ssp"
+    android:textColor="@color/blue_app"
+    android:textStyle="bold"
+    android:textAlignment="center"/>
+
+
+<!--  Form Login  -->
+<EditText
+    android:id="@+id/edtUsr"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="@dimen/_36sdp"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/_50sdp"
+    android:background="@drawable/edit"
+    android:textAlignment="center"
+    android:textColor="@color/blue_input"
+    android:inputType="text"
+    android:hint="@string/username"
+    android:textColorHint="@color/hint"
+    android:autofillHints="none" />
+
+<EditText
+    android:id="@+id/edtPass"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="@dimen/_36sdp"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/_15sdp"
+    android:background="@drawable/edit"
+    android:textAlignment="center"
+    android:textColor="@color/blue_input"
+    android:inputType="textPassword"
+    android:hint="@string/password"
+    android:textColorHint="@color/hint"
+    android:autofillHints="none" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <CheckBox
+        android:id="@+id/cbShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:buttonTint="@color/blue_app"
+        android:text="@string/show_pass"
+        android:textColor="@color/blue_app"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/for_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_33sdp"
+        android:padding="@dimen/_6sdp"
+        android:text="@string/item_forgot_password"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="italic"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/blue_app"/>
+</LinearLayout>
+
+<!-- btn -->
+<Button
+    android:id="@+id/btn_login"
+    android:layout_width="@dimen/_290sdp"
+    android:layout_height="@dimen/_70sdp"
+    android:layout_marginTop="@dimen/_18sdp"
+    android:layout_gravity="center"
+    android:background="@drawable/button_blue"
+    android:text="@string/btn_login"
+    android:textStyle="bold"
+    android:textSize="@dimen/_14ssp"/>
+
+</LinearLayout>

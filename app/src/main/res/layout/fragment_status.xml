@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.StatusFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/stat_fragment_title"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="@dimen/_28ssp"/>1-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="@dimen/_20ssp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:text="Berisi score ujian, \nscore kejujuran, \ndan catatan/log deteksi"/>-->
+
+    <LinearLayout
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:outlineAmbientShadowColor="@color/darkgray"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        tools:targetApi="p">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score :"
+            android:textColor="@color/blue_app"
+            android:textStyle="bold"
+            android:textSize="@dimen/_16ssp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textSize="@dimen/_50sdp"
+            android:textColor="@color/blue_app"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="LOG"
+            android:textColor="@color/blue_app"
+            android:textAlignment="center"/>
+    </LinearLayout>
+</LinearLayout>

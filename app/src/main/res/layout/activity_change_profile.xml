@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_app"
+    android:orientation="vertical"
+    tools:context=".activity.ChangeProfileActivity">
+
+<!--  Bagian foto profil  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_170sdp"
+        android:orientation="vertical"
+        android:background="@color/hint"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/eprof_edtPotho"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_edit"
+            app:tint="@color/blue_app" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/potho_pro"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:src="@drawable/profil"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:orientation="vertical">
+    <!--  Name  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:text="Name :"
+            android:textColor="@color/blue_app"
+            android:textSize="@dimen/_10sdp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/edit"
+            android:hint="Nama User"
+            android:textColor="@color/blue_input"/>
+    <!--  Email  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:text="Email :"
+            android:textColor="@color/blue_app"
+            android:textSize="@dimen/_10sdp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/edit"
+            android:hint="mailuser4@mail.com"
+            android:textColor="@color/blue_input"/>
+<!--    &lt;!&ndash;  Jenis Kelamin  &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/_8sdp"-->
+<!--            android:text="Name :"-->
+<!--            android:textColor="@color/blue_app"-->
+<!--            android:textSize="@dimen/_10sdp"/>-->
+<!--        <EditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/_20sdp"-->
+<!--            android:layout_marginTop="@dimen/_8sdp"-->
+<!--            android:background="@drawable/edit"-->
+<!--            android:hint="@string/name_fidah"-->
+<!--            android:textColor="@color/blue_input"/>-->
+    <!--  Nomor Telepon  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:text="No. Telepon :"
+            android:textColor="@color/blue_app"
+            android:textSize="@dimen/_10sdp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/edit"
+            android:hint="08xxxxxxxxxx"
+            android:textColor="@color/blue_input"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@color/blue_app"
+            android:text="Save"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12sdp"/>
+    </LinearLayout>
+</LinearLayout>
